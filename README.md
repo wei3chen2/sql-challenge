@@ -1,8 +1,7 @@
-## Employee Database--SQL
-
+## Employee Database--SQL Challenge
 
  ![Database](https://img.freepik.com/free-vector/database-storage-flat-isometric_126523-1925.jpg?size=626&ext=jpg&ga=GA1.1.254709990.1683353194&semt=sph) 
-## Backgroud
+## Background
 The major task of this project is to research on employees at Pewlett Hackard company, who were hired from the 1980s and 1990s. All that remains of the database of employees from that period are six CSV files.
 
 In this project, the tables were created to hold the data from the CSV files, the CSV files were imported into a SQL database, and the further data exploration and analysis were performed respectively as the followings: 
@@ -17,14 +16,13 @@ In this project, the tables were created to hold the data from the CSV files, th
 * Use the provided information to create a table schema for each of the six CSV files.
 
 
- Please check the link of Table_schemata [def](https://github.com/wei3chen2/sql-challenge/blob/main/Table_schema_employee.sql)
+ Please check the link of [Table_schemata](https://github.com/wei3chen2/sql-challenge/blob/main/Table_schema_employee.sql)
 
 ## 3. Data Analysis
 
 * List the employee number, last name, first name, sex, and salary of each employee.
 
-SELECT "Employees".emp_no AS "Employee_Number", "Employees".last_name,  
-       "Employees".first_name, "Employees".sex, "Salaries".salary
+SELECT "Employees".emp_no AS "Employee_Number", "Employees".last_name, "Employees".first_name, "Employees".sex, "Salaries".salary
 
 FROM "Employees"
 
